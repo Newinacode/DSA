@@ -65,10 +65,10 @@ F(n) = f(n-1) + n
 '''
 
 # why n+1 here we are doing 1-indexing
-
+# here we are using top down approach
 
 def n_sum(n):
-
+    # time memory trade off we are using more memory resources to cache our previous solved data
     dp = [0]*(n+1)
 
 
